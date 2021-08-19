@@ -9,7 +9,7 @@ helm_name="mysql"
 network_name="mgmtnet"
 network_pub_name="mgmt-ext"
 service_name="demo_mysql"
-vendor_name="argela"
+vendor_name="unlenen"
 
 
 file_vnfd="cnf/vnfd.yaml"
@@ -141,7 +141,7 @@ helm_name="${application_name}"
 network_name="mgmtnet"
 network_pub_name="mgmt-ext"
 service_name="service_${application_name}"
-vendor_name="argela"
+vendor_name="unlenen"
 
 
 main
