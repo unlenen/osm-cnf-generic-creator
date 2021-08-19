@@ -1,17 +1,3 @@
-
-
-
-app_description="mysql"
-app_name="mysql"
-df_name="df_mysql"
-helm_chart="stable/mysql"
-helm_name="mysql"
-network_name="mgmtnet"
-network_pub_name="mgmt-ext"
-service_name="demo_mysql"
-vendor_name="unlenen"
-
-
 file_vnfd="cnf/vnfd.yaml"
 file_ns="ns/ns.yaml"
 
