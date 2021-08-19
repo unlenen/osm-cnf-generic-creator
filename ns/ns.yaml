@@ -1,0 +1,22 @@
+nsd:
+  nsd:
+  - description: ${app_description}
+    designer: ${vendor_name}
+    df:
+    - id: ${df_name}
+      vnf-profile:
+      - id: ${app_name}
+        virtual-link-connectivity:
+        - constituent-cpd-id:
+          - constituent-base-element-id: ${app_name}
+            constituent-cpd-id: ${network_pub_name}
+          virtual-link-profile-id: ${network_name}
+        vnfd-id: ${app_name}
+    id: ${service_name}
+    name: ${service_name}
+    version: '1.0'
+    virtual-link-desc:
+    - id: ${network_name}
+      mgmt-network: 'true'
+    vnfd-id:
+    - ${app_name}

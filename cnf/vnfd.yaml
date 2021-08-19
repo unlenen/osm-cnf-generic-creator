@@ -1,0 +1,18 @@
+vnfd:
+  description: ${app_description}
+  df:
+  - id: ${df_name}
+  ext-cpd:
+  - id: ${network_pub_name}
+    k8s-cluster-net: ${network_name}
+  id: ${app_name}
+  k8s-cluster:
+    nets:
+    - id: ${network_name}
+  kdu:
+  - name: ${helm_name}
+    helm-chart: ${helm_chart}
+  mgmt-cp: mgmt-ext
+  product-name: ${app_name}
+  provider: ${vendor_name}
+  version: '1.0'
